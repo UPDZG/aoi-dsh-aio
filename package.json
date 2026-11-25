@@ -1,7 +1,7 @@
 {
   "name": "@aoi/dsh-aio",
   "version": "93.0.0",
-  "description": "AOI Workbench — DeepSeek Harness theme-skin plugin with a floating tile, Gundam EXIA and emerald skins, plus archived-conversation management.",
+  "description": "AOI Workbench —— DeepSeek Harness 主题皮肤插件。右下角悬浮瓷片切换 GUNDAM EXIA / 翡翠绿皮肤，管理归档对话。通过官方 CSS 变量实现，不修改官方布局。",
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -9,7 +9,8 @@
     "theme",
     "skin",
     "wallpaper",
-    "gundam"
+    "gundam",
+    "aoi"
   ],
   "type": "module",
   "main": "lib/index.js",
@@ -58,10 +59,10 @@
   "icon": "./icon.png",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_NAME/aoi-dsh-aio.git"
+    "url": "git+https://github.com/UPDZG/aoi-dsh-aio.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_NAME/aoi-dsh-aio/issues"
+    "url": "https://github.com/UPDZG/aoi-dsh-aio/issues"
   },
-  "homepage": "https://github.com/YOUR_NAME/aoi-dsh-aio#readme"
+  "homepage": "https://github.com/UPDZG/aoi-dsh-aio#readme"
 }
