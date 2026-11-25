@@ -1,0 +1,67 @@
+{
+  "name": "@aoi/dsh-aio",
+  "version": "93.0.0",
+  "description": "AOI Workbench — DeepSeek Harness theme-skin plugin with a floating tile, Gundam EXIA and emerald skins, plus archived-conversation management.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "theme",
+    "skin",
+    "wallpaper",
+    "gundam"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon.png": "./icon.png"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "lib/skins.json",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.png",
+    "logo.png",
+    "README.md",
+    "PUBLISHING.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "meta": {
+    "title": "AOI Workbench",
+    "description": "AOI workbench with Gundam EXIA skins and archive manager."
+  },
+  "license": "MIT",
+  "icon": "./icon.png",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_NAME/aoi-dsh-aio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_NAME/aoi-dsh-aio/issues"
+  },
+  "homepage": "https://github.com/YOUR_NAME/aoi-dsh-aio#readme"
+}

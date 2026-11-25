@@ -1,0 +1,6 @@
+# 发布到 npm 时排除的文件（如果以后也想发 npm）
+.gitignore
+.npmignore
+publish.bat
+publish-to-github.ps1
+*.log

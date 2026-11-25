@@ -1,0 +1,6 @@
+# AOI 工作台 —— bundle patch
+# 插入一个 host row，满足 bundle 双面包契约。
+# 浏览器半侧（lib/client.js）通过 ctx.slots.inject 注册 UI。
+- insert:
+    - id: aoi-aio
+      name: '@aoi/dsh-aio'

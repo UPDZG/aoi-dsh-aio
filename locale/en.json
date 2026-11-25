@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "AOI Workbench",
+    "description": "AOI workbench: a floating tile at the bottom-right opens a panel to switch GUNDAM EXIA Night / Day / Emerald themes (applied globally) and to manage archived conversations in bulk. Skins are applied through official CSS tokens and never modify the official layout; disabling the plugin restores the stock appearance immediately."
+  }
+}
