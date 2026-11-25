@@ -1,0 +1,10 @@
+name: "@aoi/dsh-aio"
+title: "AOI Workbench"
+description: "DeepSeek Harness 主题皮肤插件。右下角悬浮瓷片切换 GUNDAM EXIA 夜战/昼战/翡翠绿三种皮肤，管理归档对话。皮肤通过官方 CSS 变量全局生效，不修改官方布局；关闭插件后界面立即恢复。"
+repo: "UPDZG/aoi-dsh-aio"
+category: "ui"
+tags:
+  - theme
+  - skin
+  - wallpaper
+  - archive
